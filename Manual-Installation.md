@@ -85,9 +85,9 @@ default option is ```False```
 
 ### Output file
 Sometimes it may be helpful to write some values into a text file. One example could be a text file where some temperature values are written. In one example this text file can be read by another program, for instance the annotation in a WebCam stream.
-The parameter ```output_filename```defines the filename. If it is False, no text file will be written
-It can be selected whether the values are appended (a) to the text file or whether the values are overwriten (w) by the current ones by defining the parameter ```output_mode```.
-The return of the ```get_content_outputfile``` defines the string what should be written into the text file. The function is required otherwise the default values from the config are written into the text file.
+* ```output_filename```defines the filename. If it is False, no text file will be written
+* ```output_mode``` defines whether the values are appended (a) to the text file or whether the values are overwriten (w) by the current ones.
+*  ```get_content_outputfile``` defines the string what should be written into the text file. The function is required otherwise the default values from the config are written into the text file.
 
 default option is ```False```
 
